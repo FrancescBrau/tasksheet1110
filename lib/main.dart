@@ -30,7 +30,7 @@ class MainScreenState extends State<MainScreen> {
       appBar: AppBar(
         title: const Text(
           'Steckbrief Lama',
-          style: TextStyle(color: Colors.white70),
+          style: TextStyle(color: Colors.white),
         ),
         centerTitle: false,
         backgroundColor: const Color.fromARGB(225, 143, 186, 211),
