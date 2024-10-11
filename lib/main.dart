@@ -32,6 +32,7 @@ class MainScreenState extends State<MainScreen> {
           'Steckbrief Lama',
           style: TextStyle(color: Colors.white70),
         ),
+        centerTitle: false,
         backgroundColor: const Color.fromARGB(225, 143, 186, 211),
       ),
       body: Center(
