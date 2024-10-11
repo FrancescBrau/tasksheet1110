@@ -44,6 +44,30 @@ class MainScreenState extends State<MainScreen> {
             height: 300,
           ),
           const SizedBox(height: 20),
+          const Text(
+            'Name',
+            style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          ),
+          const Text(
+            'Diana',
+            style: TextStyle(fontSize: 24),
+          ),
+          const Text(
+            'Gewicht',
+            style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          ),
+          const Text(
+            '120 kg',
+            style: TextStyle(fontSize: 24),
+          ),
+          const Text(
+            'Lieblingsessen',
+            style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          ),
+          const Text(
+            'Krabby Patty',
+            style: TextStyle(fontSize: 24),
+          )
         ],
       )),
     );
